@@ -16,7 +16,8 @@ const isLiked = (id) => {
 };
 
 const addToLiked = (id) => {
-    likedPostsId.plus(id); 
+  // 1.problem slove
+    likedPostsId.push(id);
     showPosts(posts);
 };
 
