@@ -237,7 +237,24 @@ img {
   margin: 10px 0;
   color: gray;
 }
-
+/* QA Section */
+.qa_container{
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+.qa_title{
+  background: #363152;
+  color: beige;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 #liked{
   display: none;
 }
